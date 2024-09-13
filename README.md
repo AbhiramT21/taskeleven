@@ -17,7 +17,7 @@ This project demonstrates how to create an image that disappears when hovered ov
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/taskeleven.git
+   git clone https://github.com/AbhiramT21/taskeleven.git
    ```
 
 2. Open the `index.html` file in your browser.

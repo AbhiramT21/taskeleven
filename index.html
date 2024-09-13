@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover Effect with CSS</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; 
+        }
+        #hoverImage {
+            transition: opacity 0.3s;
+        }
+        #hoverImage:hover {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <img id="hoverImage" src="https://images.thequint.com/thequint%2F2022-03%2Fbc890469-9914-452b-baef-5d6019933a87%2FFOknp1wWUAIGolc.jfif" alt="Image" />
+</body>
+</html>
